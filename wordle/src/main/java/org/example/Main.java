@@ -18,7 +18,6 @@ public class Main {
         System.out.println(banner);
         System.out.println(wordleWelcome);
         System.out.println(banner+"\n");
-//        System.out.println(randomWord); // testing casing setting
 
         Scanner myInput = new Scanner(System.in);  //making input object
 
