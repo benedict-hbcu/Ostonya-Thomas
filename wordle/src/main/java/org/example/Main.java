@@ -23,11 +23,12 @@ public class Main {
         Scanner myInput = new Scanner(System.in);  //making input object
 
         int i = 1; //initializing i at 1 to print our word attempts
-        while (i < 7) { //loops for six five-letter-word attempts
+        int max = 7; //max for loop
+        while (i < max) { //loops for six five-letter-word attempts
             System.out.println("\nEnter your word (attempt " + String.valueOf(i) + " of 6):"); //Prompt to enter word
             String word = myInput.nextLine(); //reading input from user and storing it in string
             int wordLength = word.length(); //retrieving length of entered word
-            if (wordLength != 5) { //If the word isn't exactly five letters end don't count attempt and warn user
+            if (wordLength != randomWord.length()) { //If the word isn't exactly five letters end don't count attempt and warn user
                 System.out.println("Your word must have exactly 5 (five) letters.");
             } else {
                 i++; //count attempt
