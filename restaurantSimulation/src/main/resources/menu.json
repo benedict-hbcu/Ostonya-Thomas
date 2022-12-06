@@ -1,0 +1,198 @@
+{
+  "appetizers": [
+    {
+      "name": "nachos",
+      "probabilityOfGettingOrdered": 0.35,
+      "probabilityOfGettingSentBack": 0.05,
+      "timeToMake": 10,
+      "timeToEat": 15,
+      "ingredients": {
+        "chips": 1,
+        "tomato": 1,
+        "chicken": 2,
+        "cheese": 5,
+        "sour cream": 1,
+        "black beans": 1
+      }
+    },
+    {
+      "name": "soup",
+      "probabilityOfGettingOrdered": 0.2,
+      "probabilityOfGettingSentBack": 0.10,
+      "timeToMake": 10,
+      "timeToEat": 15,
+      "ingredients": {
+        "tomato": 5,
+        "red pepper": 1,
+        "heavy cream": 2,
+        "onion": 1,
+        "butter": 1
+      }
+    },
+    {
+      "name": "salad",
+      "probabilityOfGettingOrdered": 0.25,
+      "probabilityOfGettingSentBack": 0.02,
+      "timeToMake": 5,
+      "timeToEat": 10,
+      "ingredients": {
+        "lettuce": 2,
+        "tomato": 1,
+        "cucumber": 1,
+        "onion": 1,
+        "ranch dressing": 1
+      }
+    },
+    {
+      "name": "calamari",
+      "probabilityOfGettingOrdered": 0.2,
+      "probabilityOfGettingSentBack": 0.02,
+      "timeToMake": 20,
+      "timeToEat": 10,
+      "ingredients": {
+        "squid": 2,
+        "tomato": 1,
+        "flour": 1,
+        "garlic": 1,
+        "lemon": 1,
+        "milk": 1
+      }
+    }
+  ],
+  "mains": [
+    {
+      "name": "meatball sub",
+      "probabilityOfGettingOrdered": 0.15,
+      "probabilityOfGettingSentBack": 0.08,
+      "timeToMake": 20,
+      "timeToEat": 20,
+      "ingredients": {
+        "bread": 2,
+        "pork": 4,
+        "garlic": 1,
+        "breadcrumbs": 1,
+        "egg": 1,
+        "tomato": 1,
+        "cheese": 1
+      }
+    },
+    {
+      "name": "salmon",
+      "probabilityOfGettingOrdered": 0.24,
+      "probabilityOfGettingSentBack": 0.05,
+      "timeToMake": 10,
+      "timeToEat": 15,
+      "ingredients": {
+        "salmon": 2,
+        "broccoli": 4,
+        "lemon": 1,
+        "rice": 1
+      }
+    },
+    {
+      "name": "cheese ravioli",
+      "probabilityOfGettingOrdered": 0.1,
+      "probabilityOfGettingSentBack": 0.12,
+      "timeToMake": 25,
+      "timeToEat": 20,
+      "ingredients": {
+        "flour": 1,
+        "egg": 1,
+        "cheese": 3,
+        "tomato": 1,
+        "garlic": 1
+      }
+    },
+    {
+      "name": "chicken parm",
+      "probabilityOfGettingOrdered": 0.26,
+      "probabilityOfGettingSentBack": 0.01,
+      "timeToMake": 20,
+      "timeToEat": 30,
+      "ingredients": {
+        "flour": 1,
+        "egg": 1,
+        "chicken": 3,
+        "cheese": 5,
+        "tomato": 1,
+        "garlic": 1
+      }
+    },
+    {
+      "name": "grilled prawns",
+      "probabilityOfGettingOrdered": 0.2,
+      "probabilityOfGettingSentBack": 0.10,
+      "timeToMake": 15,
+      "timeToEat": 20,
+      "ingredients": {
+        "prawns": 2,
+        "butter": 1,
+        "herbs": 1,
+        "lemon": 1,
+        "broccoli": 1,
+        "garlic": 1
+      }
+    },
+    {
+      "name": "mushroom chicken",
+      "probabilityOfGettingOrdered": 0.05,
+      "probabilityOfGettingSentBack": 0.05,
+      "timeToMake": 20,
+      "timeToEat": 20,
+      "ingredients": {
+        "chicken": 3,
+        "mushroom": 1,
+        "heavy cream": 3,
+        "garlic": 1
+      }
+    }
+  ],
+  "desserts": [
+    {
+      "name": "creme brulee",
+      "probabilityOfGettingOrdered": 0.5,
+      "probabilityOfGettingSentBack": 0.02,
+      "timeToMake": 10,
+      "timeToEat": 10,
+      "ingredients": {
+        "heavy cream": 2,
+        "sugar": 1,
+        "egg": 1,
+        "vanilla": 1
+      }
+    },
+    {
+      "name": "cheesecake",
+      "probabilityOfGettingOrdered": 0.35,
+      "probabilityOfGettingSentBack": 0.02,
+      "timeToMake": 2,
+      "timeToEat": 15,
+      "ingredients": {
+        "heavy cream": 1,
+        "cheese": 3,
+        "egg": 1,
+        "vanilla": 1,
+        "butter": 1,
+        "sugar": 2,
+        "graham cracker": 1,
+        "raspberry": 1
+      }
+    },
+    {
+      "name": "souffle",
+      "probabilityOfGettingOrdered": 0.15,
+      "probabilityOfGettingSentBack": 0.02,
+      "timeToMake": 25,
+      "timeToEat": 15,
+      "ingredients": {
+        "heavy cream": 1,
+        "egg": 1,
+        "chocolate": 3,
+        "sugar": 2,
+        "milk": 1,
+        "flour": 1,
+        "raspberry": 1
+      }
+    }
+  ]
+}
